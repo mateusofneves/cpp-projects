@@ -1,1 +1,13 @@
-# cpp-projects
+# Projetos em C++
+
+Repositório com alguns projetos feitos em C++ para praticar.
+
+## Projetos
+
+- Jogo de adivinhação  
+  
+## Tecnologias
+- Linguagem C++
+
+## 👨‍💻 Autor
+Mateus de Oliveira
