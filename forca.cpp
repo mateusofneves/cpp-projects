@@ -38,7 +38,6 @@ void cabecalho() {
     cout << "***********************************" << endl;
     cout << "*** Bem-vindo ao jogo da forca! ***" << endl;
     cout << "***********************************" << endl;
-    cout << endl;
 }
 
 void imprime_erros() {
@@ -145,10 +144,10 @@ void adicionapalavra() {
 int main() {
     cabecalho();
 
+    le_arquivo();
     sorteia_palavra();
 
     while (nao_acertou() && nao_enforcou()) {
-
         imprime_erros();
 
         cout << endl;
