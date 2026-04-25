@@ -2,8 +2,8 @@
 #include <map>
 using namespace std;
 
-string palavra_secreta;
-map<char, bool> chutou;
+extern string palavra_secreta;
+extern map<char, bool> chutou;
 
 bool nao_acertou() {
     for (char letra : palavra_secreta) {
